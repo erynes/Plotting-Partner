@@ -46,7 +46,7 @@ of Plotly Dash packages.
 
 Clone the repository:  
 ```bash
-$ git clone https://github.com/erynes/plotting_partner.git
+$ git clone https://github.com/erynes/Plotting-Partner.git
 
 ```
 
@@ -80,19 +80,23 @@ will make the demo look like this:
 ## Line plot (time-varying measurements)
 
 For the line plot, choose an entity by which to group (i.e. color) the data,
-e.g. to highlight comparisons between molecules, passages, or plate IDs.  
-Once you've chosen y-axis and "group by" properties and rendered a line plot via the "SHOW PLOT" button,
-you can choose whether to collapse replicates (plot mean ± SD),
-you can hide curves by clicking on their entries in the legend,
-and you can change any curve's color by clicking on a data point within the curve.  
-By default, changing one replicate's color will change its color in all subplots
+e.g. to highlight comparisons between treatments, reagents, or plate IDs.
+
+Once you&rsquo;ve chosen y-axis and &ldquo;group by&rdquo; properties and
+rendered a line plot via the &ldquo;SHOW PLOT&rdquo; button, you can choose whether to
+collapse replicates (plot mean ± SD), you can hide curves by clicking on their entries in the
+legend, and you can change any curve&rsquo;s color by clicking on a data point within the curve.
+
+By default, changing one replicate&rsquo;s color will change its color in all subplots
 and will also change the color of all fellow replicates of the same entity.
 Options are provided (via checkboxes) to restrict changes to single subplots
 and single replicates. See further below for a description of the color-choice options.  
+
 If you choose to collapse replicates, a slider will appear to the right of your choice
-enabling you to optionally "subtly spread the points horizontally."
+enabling you to optionally &ldquo;subtly spread the points horizontally.&rdquo;
 This can be helpful to distinguish points ± error bars that lie on top of each other,
-which commonly occurs because measurements are made at identical discrete values ("day" on the x-axis).
+which commonly occurs when measurements are made at identical discrete values
+(&ldquo;day&rdquo; on the x-axis).
 
 ## Bar plot (demographics and/or summary metrics)
 
@@ -107,8 +111,8 @@ You can define any label to be the default label (click the appropriate button w
 or editing it); all samples to which no label has been assigned will instantly receive the
 default label. If you make most/all bars blue by default, and then change your mind
 and want them to be green, simply edit that label and change its color. Once a label is
-defined as the default, it cannot be "un-checked" to become "no longer the default;"
-instead, define a different label to be the default.
+defined as the default, it cannot be &ldquo;un-checked&rdquo; to become &ldquo;no longer
+the default;&rdquo; instead, define a different label to be the default.
 
 You can use the &ldquo;Label a subset&rdquo; button to specify a subset of samples and
 assign a label to them. You can use this to explore your data: specify &ldquo;yield&rdquo;
@@ -126,7 +130,8 @@ that will enable you to set the color three ways:
 2. by clicking in the square in the lower left-hand corner, which will bring up a new window
 in which you can specify any color you wish via your mouse or the RGB inputs shown  
 3. by typing a hexadecimal color code in the input box at the bottom of the window
-adjacent to the &ldquo;OK&rdquo; button (optionally preceded by &ldquo;#&rdquo;).
+adjacent to the &ldquo;OK&rdquo; button (optionally preceded by &ldquo;#&rdquo;)
+and hitting the &ldquo;enter&rdquo; key.
 
 The color you choose will then be displayed to the left of the &ldquo;hexadecimal input&rdquo;
 box, and the corresponding hexadecimal value will be written into this input box.
